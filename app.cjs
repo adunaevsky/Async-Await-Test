@@ -22,11 +22,7 @@ async function main() {
 
 main();
 
-function sum(a, b) {
-    return a + b;
-}
 module.exports = {
-    sum: sum,
     main: main,
     getMovieList: getMovieList
 };
