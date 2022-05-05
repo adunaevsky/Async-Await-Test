@@ -13,7 +13,7 @@ const app = require('./app.cjs');
   });
 
   test('getMovieList for 2010', async ()=>{
-      var result = await app.getMovieList(2018);
+      var result = await app.getMovieList(2010);
       expect(Array.isArray(result)).toBeTruthy();
       expect(typeof result[0]).toMatch(/string/);
   });
